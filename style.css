@@ -7,6 +7,7 @@
 	box-sizing: border-box;
 	background: transparent;
 	border: none;
+	font-family: 'Lato';
 }
 
 .nav {
@@ -62,4 +63,40 @@
 		box-shadow: none;
 		border-radius: 0;
 	}
+}
+
+.footer {
+	background: #151c21;
+}
+
+.footer__top {
+	padding: 80px 0;
+}
+
+.footer__links {
+}
+
+.footer__link-title {
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+.footer__link-link {
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 6px;
+}
+
+.copy {
+	color: #bbbbbb;
+}
+
+.footer_bot-line {
+	color: #bbbbbb;
+}
+
+.footer_bot-link {
+	color: #bbbbbb;
 }
