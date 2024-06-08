@@ -24,6 +24,12 @@
 	transform: translateY(-5px);
 }
 
+.btn.btn-orange {
+	border: none !important;
+	color: #fff;
+	background: #f87932;
+}
+
 .nav {
 	display: flex;
 	align-items: flex-start;
@@ -201,5 +207,35 @@
 		display: flex;
 		flex-direction: column-reverse;
 		gap: 9px;
+	}
+}
+
+.header {
+	height: 1000px;
+	background: url('./img/BG.png');
+	background-size: cover;
+	background-position: bottom;
+}
+
+.rombs {
+	position: absolute;
+	top: 0;
+}
+
+.header__title {
+	font-family: 'Merriweather';
+	font-size: 80px;
+	color: #39bfa7;
+	max-width: 510px;
+	margin-bottom: 80px;
+	font-weight: 700;
+}
+.header__title span {
+	color: #f87932;
+}
+
+@media (max-width: 1290px) {
+	.header__title {
+		font-size: 40px;
 	}
 }
