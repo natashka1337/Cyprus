@@ -266,6 +266,9 @@
 }
 
 @media (max-width: 1150px) {
+	.adventure {
+		justify-content: center;
+	}
 	.adventure__images {
 		display: none;
 	}
@@ -281,4 +284,114 @@
 	.adventure__subtitle {
 		font-size: 18px;
 	}
+}
+
+.video {
+	height: 1150px;
+	background: url('./img/bg2.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	padding-top: 300px;
+	position: relative;
+}
+
+.video__title {
+	font-weight: 900;
+	font-family: 'Merriweather';
+	font-size: 60px;
+	text-align: center;
+	color: #fff;
+}
+
+.video__text {
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 20%;
+	color: #fff;
+	margin-bottom: 100px;
+}
+
+.video__play {
+	margin: 0 auto;
+	display: block;
+}
+
+.video__advantages {
+	position: absolute;
+	bottom: -160px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+@media (max-width: 1300px) {
+	.video__advantages {
+		display: none;
+	}
+}
+
+@media (max-width: 1150px) {
+	.video__title {
+		font-size: 20px;
+	}
+
+	.video__text {
+		font-size: 15px;
+	}
+}
+
+.tourist {
+	background: url('./img/bg3.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: center;
+}
+
+.tourist__title {
+	font-family: 'Merriweather';
+	font-weight: 900;
+	font-size: 60px;
+	max-width: 424px;
+	color: #222222;
+	margin-bottom: 32px;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.tourist__rombs {
+	margin-bottom: 40px;
+	margin: 0 auto;
+	display: block;
+}
+
+.tourist__text {
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: 25%;
+	margin: 0 auto;
+	color: #eeeeee;
+	max-width: 700px;
+}
+
+.tourist__container {
+	border: 5px solid #ffffff;
+	padding: 60px 100px;
+}
+
+@media (max-width: 1150px) {
+	.tourist__title {
+		font-size: 20px;
+	}
+	.tourist__container {
+		border: 5px solid #ffffff;
+		padding: 20px 10px;
+	}
+}
+
+.tourist__upcoming {
+	font-family: 'Sedgwick';
+	font-size: 60px;
+	color: #39bfa7;
 }
